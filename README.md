@@ -39,7 +39,7 @@ Designed for simplicity, productivity and accessibility — with Arabic interfac
 
 ```bash
 1. Clone this repository to your local machine by running the following command in your terminal:
-  $ git clone https://github.com/aya-elahgory/todo-list.git
+  $ git clone(https://aya-elaghory.github.io/todo-list/)
 
 2. Navigate to the project directory:
   $ cd todo-list
