@@ -6,7 +6,7 @@ import {
   getDeletIcons,
   CheckBoxElemnt,
   taskListLink,
-  TaskSearchBarButton
+  TaskSearchBarButton,
 } from "./elemnts.js";
 
 const toggleDarkMode = () => {
@@ -15,7 +15,6 @@ const toggleDarkMode = () => {
 };
 
 DarkThemeToggleElemnt.addEventListener("click", toggleDarkMode);
-
 
 const fetchData = (key) => {
   const data = localStorage.getItem(key);
@@ -105,8 +104,10 @@ const initiTaskListeners = () => {
 
   CheckBoxElemnt().forEach((box, index) => {
     box.addEventListener("click", (e) => toggleTask(e, index));
-    box.addEventListener("keydown", (e) => 
-      e.key=== "Enter" && toggleTask(e, index))
+    box.addEventListener(
+      "keydown",
+      (e) => e.key === "Enter" && toggleTask(e, index)
+    );
   });
 };
 
@@ -130,7 +131,6 @@ const toggleTask = (e, index) => {
 taskListLink?.addEventListener("click", () => {
   taskListElemnt.classList.toggle("TaskList__list--hideCompleted");
   taskListLink?.classList.toggle("TaskList__link--isActive");
-
 });
 
 initDataOnStartup();
