@@ -30,8 +30,7 @@ Designed for simplicity, productivity and accessibility — with Arabic interfac
 
 ## 🧭 Preview
 
-![todo-list Preview](./Screenshot%202025-10-26%20165534.png)
-
+![todo-list Preview](./Screenshot%202025-10-31%20204458.png)
 
 
 ---
